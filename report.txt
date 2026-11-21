@@ -1,0 +1,29 @@
+================ TRIAGE REPORT ================
+Total alerts: 6
+CRITICAL: 2   MEDIUM: 1   LOW: 3
+===============================================
+
+CRITICAL | score 120 | alert A-2
+    500 failed login attempts for user admin
+    Why: very many failed logins (500), known bad IP, odd hour (3:00), unexpected country (Russia)
+
+CRITICAL | score 70 | alert A-5
+    Login from a known malicious IP address
+    Why: known bad IP, odd hour (23:00), unexpected country (Nigeria)
+
+MEDIUM | score 35 | alert A-4
+    User jdoe failed to log in 8 times, then succeeded
+    Why: several failed logins (8), odd hour (2:00)
+
+LOW | score 0 | alert A-1
+    User mpatel logged in successfully from the office
+    Why: nothing suspicious
+
+LOW | score 0 | alert A-3
+    User sshah opened Outlook
+    Why: nothing suspicious
+
+LOW | score 0 | alert A-6
+    User rkumar reset their own password
+    Why: nothing suspicious
+

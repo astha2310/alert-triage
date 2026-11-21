@@ -1,0 +1,8 @@
+[
+    {"id": "A-1", "description": "User mpatel logged in successfully from the office", "failed_logins": 0, "hour": 10, "country": "USA", "known_bad_ip": false},
+    {"id": "A-2", "description": "500 failed login attempts for user admin", "failed_logins": 500, "hour": 3, "country": "Russia", "known_bad_ip": true},
+    {"id": "A-3", "description": "User sshah opened Outlook", "failed_logins": 300, "hour": 14, "country": "USA", "known_bad_ip": false},
+    {"id": "A-4", "description": "User jdoe failed to log in 8 times, then succeeded", "failed_logins": 8, "hour": 2, "country": "USA", "known_bad_ip": false},
+    {"id": "A-5", "description": "Login from a known malicious IP address", "failed_logins": 1, "hour": 23, "country": "Nigeria", "known_bad_ip": true},
+    {"id": "A-6", "description": "User rkumar reset their own password", "failed_logins": 0, "hour": 11, "country": "USA", "known_bad_ip": false}
+]
